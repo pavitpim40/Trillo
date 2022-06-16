@@ -65,6 +65,7 @@
         height: 2rem;
         width: 2rem;
         fill:var(--color-grey-dark-3);
+       
     }
 }
 
@@ -93,6 +94,9 @@
     & > *:hover {
         background-color: var(--color-grey-light-2);
     }
+    // & > *:hover > svg{
+    //     background-color: var(--color-grey-light-2);
+    // }
     &__icon-box {
         position: relative;
     }
@@ -102,7 +106,8 @@
         width: 2.25rem;
         fill: var(--color-grey-dark-2);
       
-        background-color: #fff;
+      
+       
     }
 
   
